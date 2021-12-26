@@ -8,7 +8,7 @@
 
 ## URL
 
-https://recursion-yuru-team.github.io/Motivational_Speech_Wallpaper/
+https://recursion-team-b.github.io/wallpaper/
 
 ## Author
 
