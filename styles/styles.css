@@ -3,7 +3,7 @@
 }
 
 .bg_image {
-  width: auto;
+  width: 100vw;
   height: 100vh;
   background-size: cover;
   position: absolute;
@@ -23,37 +23,37 @@
   width: 60%;
   letter-spacing: 0.04em;
   text-shadow: #ffffff 0 0 10px;
-  top: 30%;
+  top: 35%;
   left: 23%;
   opacity: 0;
-  /* transform: translate(-50%, -50%); */
   animation: zoomin 120s infinite; /* 12 × 各10s = 120s */
   z-index: 2;
 }
 
 /* フォント */
+
 .comfortaa {
-  font-family: "Comfortaa", cursive;
+  font-family: 'Comfortaa', cursive;
 }
 
 .Comfortsurreal {
-  font-family: "Shizuru", cursive;
+  font-family: 'Shizuru', cursive;
 }
 
 .Teko {
-  font-family: "Teko", sans-serif;
+  font-family: 'Teko', sans-serif;
 }
 
 .kosugi {
-  font-family: "Mochiy Pop P One", sans-serif;
+  font-family: 'Mochiy Pop P One', sans-serif;
 }
 
 .Rounded1c {
-  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 .NotoSans {
-  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 @media screen and (max-width: 1024px) {
@@ -127,25 +127,17 @@
   animation-delay: 90s;
 }
 
-.wallpaper11 {
-  animation-delay: 100s;
-}
-
-.wallpaper12 {
-  animation-delay: 110s;
-}
-
 @keyframes fadein {
   0% {
+    opacity: 0;
+  }
+  10% {
     opacity: 0;
   }
   20% {
     opacity: 1;
   }
   30% {
-    opacity: 1;
-  }
-  50% {
     opacity: 0;
   }
   100% {
@@ -158,19 +150,15 @@
     transform: scale(0);
     opacity: 0;
   }
-  /* 10% {
-    transform: scale(0.5);
-    opacity: 0.5;
-  } */
+  10% {
+    transform: scale(0);
+    opacity: 0;
+  }
   20% {
     transform: scale(1);
     opacity: 1;
   }
   30% {
-    transform: scale(1);
-    opacity: 1;
-  }
-  50% {
     transform: scale(0);
     opacity: 0;
   }
