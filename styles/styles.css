@@ -70,11 +70,13 @@
 
 @media screen and (max-width: 414px) {
   .bg_image {
+    width: auto;
     left: -50vw;
   }
 
   .speech {
     font-size: 1rem;
+    width: 60%;
     top: 40%;
   }
 }
