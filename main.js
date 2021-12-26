@@ -95,16 +95,16 @@ const wallpaper6 = new Wallpaper(
 
 //zillowさん
 const wallpaper7 = new Wallpaper(
-  'Continuous effort – not strength or intelligence – is the key to unlocking our potential.  -Winston Churchill-',
+  'Continuous effort – not strength or intelligence – is the key to unlocking our potential.<br>-Winston Churchill-',
   'fff',
-  'images/zillow1.jpg',
+  'https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616_1280.jpg',
   '7',
   'Teko'
 );
 
 const wallpaper8 = new Wallpaper(
-  'The greatest glory in living lies not in never falling, but in rising every time we fall.  -Nelson Mandela- ',
-  'fff',
+  'The greatest glory in living lies not in never falling, but in rising every time we fall.<br>-Nelson Mandela- ',
+  '2c3e50',
   'images/zillow2.jpg',
   '8',
   'Teko'
