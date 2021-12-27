@@ -21,7 +21,7 @@ function motivationalSpeechWallpaper(wallpaperObject) {
   speech.style.color = '#' + wallpaperObject.color;
   speech.classList.add(
     'speech',
-    `${wallpaperObject.style}`,
+    wallpaperObject.style,
     `wallpaper${wallpaperObject.id}`
   );
   speech.innerHTML = wallpaperObject.text;
